@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Fore-Cast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Weather Fore-Cast</h1>
+            <p>Get your local weather, anytime!</p>
+        </header> 
+        
+    <form class="search-container" action="">
+        <input type="text" class="search" placeholder="City Name">
+        <button type="submit" class="search">search</button>
+    </form>
+
+        <main>
+            <div class="current-weather">
+                <h2 class="city">Pune </h2>
+                <p class = "temperature"></p>
+                <div><p id="weather-condition"></p></div>
+            </div>
+            <div class="additional-info">
+                <div class="info"><p class = "humidity"> <span id="humidity"></span></p> </div>
+                <div class="info"><p class="wind-speed"> <span id="wind-speed"></span></p></div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
